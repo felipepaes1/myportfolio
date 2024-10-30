@@ -1,0 +1,215 @@
+/* Estilo geral da aplicação */
+div[data-testid="stAppViewContainer"] {
+    background-image: url('./assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilização dos títulos */
+h2, h3 {
+    color: #FFFFFF;
+}
+
+h1 {
+    color: #9e9090;
+}
+
+h1 span {
+    background-color: #ffffff;
+}
+
+/* Estilização das seções */
+.section {
+    background-image: url('./assets/background.jpg');
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para os links das redes sociais */
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.div {
+    width: 500px;
+    height: 500px;
+}
+
+.card-container {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsivo */
+    gap: 10px;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px; /* Largura máxima do card */
+    min-height: 250px; /* Altura mínima para garantir padrão */
+    background-color: rgba(40, 111, 188, 0.3);
+    margin-top: 10px;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.card i {
+    font-size: 50px; /* Ajuste o valor conforme necessário */
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin: 5px 0;
+    margin-left: 25px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #bdc1ca;
+}
+
+.card:hover {
+    background-color: rgba(0, 0, 102, 0.9);
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
+/* Estilização dos ícones das tecnologias */
+.fab.fa-python {
+    color: #3776AB;
+}
+
+.fab.fa-js {
+    color: #F7DF1E;
+}
+
+.fab.fa-angular {
+    color: #DD0031;
+}
+
+.fab.fa-laravel {
+    color: #FF2D20;
+}
+
+.fas.fa-database {
+    color: #4DB33D;
+}
+
+/* Estilização dos ícones do Devicons */
+.devicon-c-plain {
+    color: #A8B9CC;
+    align-items: center;
+}
+
+.devicon-cplusplus-plain {
+    color: #00599C;
+}
+
+/* Estilização dos ícones das redes sociais */
+.fa-github, .fa-linkedin, .fa-whatsapp, .fa-envelope {
+    color: #FFFFFF;
+    transition: color 0.3s;
+}
+
+.fa-github:hover {
+    color: #6e5494; /* Cor do GitHub */
+}
+
+.fa-linkedin:hover {
+    color: #0077b5; /* Cor do LinkedIn */
+}
+
+.fa-whatsapp:hover {
+    color: #25D366; /* Cor do WhatsApp */
+}
+
+.fa-envelope:hover {
+    color: #D44638; /* Cor do Email */
+}
+
+.footer {
+    color: #707080;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+/* Estilos gerais para ícones, se necessário */
+.fa {
+    transition: color 0.3s;
+}
+
+/* Estilos específicos para os ícones do rodapé */
+.footer-icon {
+    display: flex;
+    justify-content: space-between; /* Espaço igual entre os ícones */
+    align-items: center;
+    width: 200px; /* Ajuste conforme necessário para espaçamento */
+    margin: 0 auto; /* Centraliza o contêiner */
+    font-size: 16px; /* Ajuste este valor conforme necessário */
+    color: blue;
+}
+
+.footer-icon .fa {
+    color: #FFFFFF;
+}
+
+.footer-icon .fa-github:hover {
+    color: #6e5494;
+}
+
+.footer-icon .fa-linkedin:hover {
+    color: #0077b5;
+}
+
+.footer-icon .fa-whatsapp:hover {
+    color: #25D366;
+}
+
+.footer-icon .fa-envelope:hover {
+    color: #D44638;
+}
+
+/* Outros estilos personalizados podem ser adicionados aqui */
+
+@media (max-width: 900px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr); /* Duas colunas */
+    }
+}
+
+/* Ajustes para dispositivos móveis */
+@media (max-width: 600px) {
+    .card-container {
+        grid-template-columns: 1fr; /* Uma coluna */
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        padding: 5px;
+    }
+}
+
+
