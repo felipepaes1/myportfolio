@@ -7,6 +7,15 @@ div[data-testid="stAppViewContainer"] {
     font-family: 'Arial', sans-serif;
 }
 
+.st-emotion-cache-1avcm0n {
+    visibility: hidden;
+}
+
+.stAppHeader.st-emotion-cache-h4xjwg.ezrtsby2 {
+    display: none;
+    visibility: hidden;
+}
+
 /* Estilização dos títulos */
 h2, h3 {
     color: #FFFFFF;
