@@ -16,6 +16,11 @@ div[data-testid="stAppViewContainer"] {
     visibility: hidden;
 }
 
+._container_51w34_1._viewerBadge_nim44_23 {
+    display: none;
+    visibility: hidden;
+}
+
 /* Estilização dos títulos */
 h2, h3 {
     color: #FFFFFF;
