@@ -17,8 +17,8 @@ div[data-testid="stAppViewContainer"] {
 }
 
 ._container_51w34_1._viewerBadge_nim44_23 {
-    display: none;
-    visibility: hidden;
+    display: none !important;
+    visibility: hidden !important;
 }
 
 /* Estilização dos títulos */
