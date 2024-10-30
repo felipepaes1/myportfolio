@@ -21,6 +21,11 @@ div[data-testid="stAppViewContainer"] {
     visibility: hidden !important;
 }
 
+_link_51w34_10 {
+    display: none !important;
+    visibility: hidden !important;
+}
+
 /* Estilização dos títulos */
 h2, h3 {
     color: #FFFFFF;
